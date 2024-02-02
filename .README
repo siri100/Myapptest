@@ -1,0 +1,3 @@
+1) run "npm i" to install all dependencies
+2) use "npm run wdio" to execute tests
+3) use "npm run report" to open reports

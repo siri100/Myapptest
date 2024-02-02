@@ -1,0 +1,32 @@
+##
+
+#1 : Folder structure : 
+
+--> Config folder : This folder consists of webdriverio configuration file which holds capabilities like spec file path, framework options,reporter  and all hooks used in the framework.
+
+--> node_modules : This folder consists of all supported code required for npm packges utilized into the project.
+
+-->tests : here is where actual code for test automation is written, this is page object model framework, with support of testData file , reporter used here is allure.framework used here is webdriveio,mocha and javascript.
+
+--> PageObjects : Here we have all the page objects and action methods through which we use to perform automation tests.
+                  basePage : here we have all the common action methods used in framework like click,addValue etc.
+                  homePage : this is file for all page objects of home page and related action methods
+
+---> specs : here we are using mocha as our test management framework and all the actual test is written in this folder
+
+---> testData : here we have stored all the test data which we have utilized in the framework
+
+---> utils : this folder is where we write common helper code which is required for API automation and DB automation related code.
+
+--->allure results : This is folder where all the test results will be stored once test execution is done, basically it shows how many number of tests passed/failed
+
+--->allure-report : This is folder where we generate user readble test report on UI using this command "allure generate --clean allure-results && allure open".
+
+---> Package.json : This is file where we write all the packages required for our test automation project.
+
+
+---> jsconfig.json : This file consists of all auto compilation options required for this project.
+
+--->.gitigonore: this file consists of all names of files and folder which we will not be committing to github.
+
+

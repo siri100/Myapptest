@@ -1,0 +1,27 @@
+{
+
+    "base_url": "http://localhost:3000",
+
+    "newUserDetails" : {
+        "email" : "sample1@test.com",
+        "password" : "Test@231",
+        "securityAnswer" : "Sam"
+    },
+
+    "loginDetails" : {
+        "email" : "admin@juice-sh.op",
+        "password" : "admin123"
+    },
+    
+    "APIEndPoints" : {
+        "loginAPI" : "http://localhost:3000/rest/user/login",
+        "registerUserAPI" : "http://localhost:3000/api/Users/",
+        "customerFeedbackAPI" : "http://localhost:3000/api/Feedbacks/",
+        "getCaptchaAPI" : "http://localhost:3000/rest/captcha/",
+        "checkoutAPI" : "http://localhost:3000/rest/basket/1/checkout",
+        "addItemsAPI" : "http://localhost:3000/api/BasketItems/"
+    }
+
+
+
+}
